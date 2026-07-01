@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-01T12:15:25Z",
+  "domain": "auraperclick.com",
+  "project": "aura-per-click-git",
+  "status": "ready_to_apply",
+  "productionEnv": {
+    "NEXT_PUBLIC_ADSTERRA_ENABLE_POPUNDER": "false",
+    "NEXT_PUBLIC_ADSTERRA_POPUNDER_DELAY_MS": "30000",
+    "NEXT_PUBLIC_ADSTERRA_POPUNDER_MIN_PAGEVIEWS": "2",
+    "NEXT_PUBLIC_ADSTERRA_ENABLE_SOCIAL_BAR": "true",
+    "NEXT_PUBLIC_ADSTERRA_ENABLE_STICKY_RAIL": "false",
+    "NEXT_PUBLIC_ADSTERRA_SOCIAL_BAR_SCRIPT_URL": "https://pl30153810.effectivecpmnetwork.com/61/d0/71/61d07168976e9daac50f0879e12c5153.js"
+  },
+  "note": "Public Adsterra runtime values only. Private API keys and Cloudflare tokens are never written here."
+}

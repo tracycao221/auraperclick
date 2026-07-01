@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-01T12:15:29Z",
+  "mode": "apply",
+  "siteCount": 1,
+  "results": [
+    {
+      "site": "aura-per-click-git",
+      "domain": "auraperclick.com",
+      "cloudflarePagesProject": "aura-per-click-git",
+      "matchedDomains": [
+        "aura-per-click-git.pages.dev"
+      ],
+      "status": "applied",
+      "productionEnvVarNames": [
+        "NEXT_PUBLIC_ADSTERRA_ENABLE_POPUNDER",
+        "NEXT_PUBLIC_ADSTERRA_ENABLE_SOCIAL_BAR",
+        "NEXT_PUBLIC_ADSTERRA_ENABLE_STICKY_RAIL",
+        "NEXT_PUBLIC_ADSTERRA_POPUNDER_DELAY_MS",
+        "NEXT_PUBLIC_ADSTERRA_POPUNDER_MIN_PAGEVIEWS",
+        "NEXT_PUBLIC_ADSTERRA_SOCIAL_BAR_SCRIPT_URL"
+      ],
+      "previewEnvVarNames": [],
+      "sources": [
+        "/Users/ah/Documents/GitHub/roblox_monetization/site-autopilot/sites/aura-per-click-calculator/adsterra_cloudflare_env.production.json"
+      ]
+    }
+  ],
+  "note": "Report intentionally includes env var names only, not values."
+}

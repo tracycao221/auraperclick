@@ -45,6 +45,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true
   },
+  verification: {
+    google: "RA9AnVeT2sm0JPkl_C4i2LFOVbPfDpBcuu9dnNPAkHg"
+  },
   appleWebApp: {
     capable: true,
     title: siteConfig.name,

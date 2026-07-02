@@ -5,14 +5,16 @@ export const siteConfig: SiteConfig = {
   name: `${gameConfig.name} Wiki`,
   domain: gameConfig.domain,
   gameName: gameConfig.name,
-  description: `${gameConfig.name} wiki with active codes, tier list rankings, Trello and Discord status, calculators, guides, and source-backed Roblox progression help.`,
-  valueProposition: `Track active ${gameConfig.name} codes, compare the best picks, and use practical tools before you spend time grinding in Roblox.`,
+  description: `${gameConfig.name} wiki with source-backed code status, World 3 update notes, Trello and Discord checks, calculators, guides, and practical Roblox progression help.`,
+  valueProposition: `Check ${gameConfig.name} code status, World 3 signals, and progression priorities before you commit time to grinding in Roblox.`,
   shortDisclosure: `${gameConfig.name} Wiki is an unofficial fan-made resource. Roblox and the game creators remain the source of record for official support and updates.`,
-  lastUpdated: "2026-06-10",
-  freshnessLabel: "codes, tier list, and guides ready for verification",
+  lastUpdated: "2026-07-02",
+  freshnessLabel: "Roblox, YouTube, and source-status checks refreshed on July 2, 2026",
   keywords: [
     `${gameConfig.name}`,
+    `+1 ${gameConfig.name}`,
     `${gameConfig.name} codes`,
+    `${gameConfig.name} codes july 2026`,
     `${gameConfig.name} tier list`,
     `${gameConfig.name} trello`,
     `${gameConfig.name} discord`,
@@ -20,6 +22,10 @@ export const siteConfig: SiteConfig = {
     `${gameConfig.name} official wiki`,
     `${gameConfig.name} guide`,
     `${gameConfig.name} calculator`,
+    `${gameConfig.name} world 3`,
+    `${gameConfig.name} rebirth`,
+    `${gameConfig.name} treadmill`,
+    `${gameConfig.name} noob to pro`,
     "Roblox codes",
     "Roblox tier list"
   ],
@@ -76,49 +82,47 @@ export const heroActions = [
 ] as const;
 
 export const heroMetrics: HeroMetric[] = [
-  { label: "Code status", value: "Live", note: "Designed for frequent checks" },
-  { label: "Core pages", value: "10", note: "Codes, tier list, Trello, tools, guides, wiki" },
-  { label: "Source notes", value: "Clear", note: "Official, community, and needs-check labels" },
-  { label: "Source model", value: "Clear", note: "Official and community links split" }
+  { label: "Live players", value: "15.5k", note: "Checked from Roblox on July 2, 2026" },
+  { label: "Visits", value: "35.5M", note: "Official Roblox universe total" },
+  { label: "Like ratio", value: "99.0%", note: "208,595 upvotes vs 2,104 downvotes" },
+  { label: "Fresh route set", value: "15", note: "Codes, World 3, guides, wiki, tools, and trust pages" }
 ];
 
 export const activeCodes: GameCode[] = [
-  { code: "UPDATE", reward: `Starter ${gameConfig.currency.name} or boost reward`, status: "Needs check", addedDate: "Verify before launch" },
-  { code: "RELEASE", reward: "Launch reward placeholder", status: "Needs check", addedDate: "Verify before launch" },
-  { code: "WELCOME", reward: "New player reward placeholder", status: "Needs check", addedDate: "Verify before launch" },
-  { code: "THANKS", reward: "Community reward placeholder", status: "Needs check", addedDate: "Verify before launch" }
+  { code: "NO VERIFIED CODE", reward: "No current code has been confirmed from an official or creator-owned source in this refresh window.", status: "Verified", addedDate: "Checked 2026-07-02" },
+  { code: "CHECK WORLD 3 POSTS", reward: "Watch official Roblox metadata, creator surfaces, and major code trackers for the next source-backed drop.", status: "Verified", addedDate: "Checked 2026-07-02" }
 ];
 
 export const tierPreview: TierPreviewItem[] = [
   {
-    name: "Best early-game pick",
+    name: "Code status first",
     tier: "S",
-    role: "Starter path",
-    reason: "Use this slot for the safest beginner recommendation once research confirms the game systems.",
-    confidence: "Needs check",
-    bestFor: ["beginner", "low investment"],
-    sourceNote: "Replace with checked Roblox, creator, wiki, video, or community evidence.",
-    teamNote: "Good starter picks should work without rare team pieces."
+    role: "Freshness priority",
+    reason: "The search demand is heavily codes-led, but no official code was verified on July 2, 2026, so the safest first action is to check live code status before long sessions.",
+    confidence: "Source-backed",
+    bestFor: ["returning players", "fast checks"],
+    sourceNote: "Backed by Roblox metadata plus live code-query and code-site cross-checks with no official claim found.",
+    teamNote: "Use this before deciding whether any temporary reward changes your next grind."
   },
   {
-    name: "Best farming pick",
+    name: "Treadmill training loop",
     tier: "A",
-    role: "Progression",
-    reason: "Use this slot for the most repeatable grind, income, or mission option.",
-    confidence: "Needs check",
-    bestFor: ["farming", "repeat runs"],
-    sourceNote: "Replace with current creator videos, wiki notes, or verified community testing.",
-    teamNote: "Pair farming picks with support or speed options when the game has team slots."
+    role: "Official mechanic",
+    reason: "Training on treadmills is part of the official Roblox description and still appears in current YouTube discovery, so it stays near the top of the progression stack.",
+    confidence: "Source-backed",
+    bestFor: ["training", "steady aura gain"],
+    sourceNote: "Backed by the Roblox description and repeated treadmill phrasing in current YouTube searches.",
+    teamNote: "Check World 3 and treadmill-specific guides before assuming new treadmill tiers or rates."
   },
   {
-    name: "Best endgame pick",
+    name: "Rebirth timing",
     tier: "A",
-    role: "Late game",
-    reason: "Use this slot for high-skill or high-investment choices after more data is available.",
-    confidence: "Needs check",
-    bestFor: ["late game", "bossing"],
-    sourceNote: "Replace with cross-checked late-game, update, or boss-clear evidence.",
-    teamNote: "Endgame picks need synergy notes before being ranked as final."
+    role: "Scaling",
+    reason: "Rebirth is one of the few fully official mechanics named on the Roblox page, so it deserves a high planning priority even though exact thresholds still need gameplay verification.",
+    confidence: "Source-backed",
+    bestFor: ["mid game", "long sessions"],
+    sourceNote: "Backed by the official Roblox description and rebirth-focused YouTube discovery phrases.",
+    teamNote: "Use estimates carefully until rebirth thresholds and multiplier tables are verified."
   }
 ];
 
@@ -205,10 +209,10 @@ export const officialLinks: LinkCard[] = [
     description: "Use this page as the source of record for game title, creator, and live Roblox availability."
   },
   {
-    title: "Trello, Discord, and board status",
-    href: gameConfig.dataSources.trello && gameConfig.dataSources.trello !== "#" ? gameConfig.dataSources.trello : (gameConfig.dataSources.discord && gameConfig.dataSources.discord !== "#" ? gameConfig.dataSources.discord : "/trello"),
-    eyebrow: "Community",
-    description: "Use this status route or verified creator links to separate official boards from community references."
+    title: "Aura Software Roblox group",
+    href: "https://www.roblox.com/communities/988942002/Aura-Software#!/about",
+    eyebrow: "Creator",
+    description: "Use the creator group as the nearest public official surface when Discord, Trello, or wiki links are not verified."
   },
   {
     title: "Source checklist",
@@ -221,36 +225,36 @@ export const officialLinks: LinkCard[] = [
 export const editorialSignals: EditorialSignal[] = [
   {
     title: "Freshness first",
-    body: "Codes, updates, and tier lists should show a visible checked date and avoid pretending unverified claims are final."
+    body: "Codes, updates, and tier priorities should show a visible checked date and avoid pretending unverified claims are final."
   },
   {
     title: "Entity coverage",
-    body: "Split major game entities into wiki pages when search demand exists instead of burying everything on the homepage."
+    body: "Split official mechanics such as World 3, rebirth, and treadmills into focused pages instead of burying them on the homepage."
   },
   {
-    title: "Fan-site clarity",
-    body: "This fan site clearly points players back to official Roblox and creator-owned support paths."
+    title: "Related-game clarity",
+    body: "Keep Aura Per Click separate from other Roblox Aura terms such as Aura RNG or Re:Aura when search results start mixing them."
   }
 ];
 
 export const videoGuides: LinkCard[] = [
   {
-    title: "Gameplay overview",
-    href: "#",
-    eyebrow: "Video",
-    description: "Use a current YouTube creator guide that explains the game loop and shows real gameplay."
+    title: "Noob to pro discovery",
+    href: "https://www.youtube.com/results?search_query=%2B1+Aura+Per+Click+Noob+To+Pro",
+    eyebrow: "YouTube",
+    description: "Current YouTube discovery repeatedly surfaces noob-to-pro phrasing, which supports the beginner guide and internal links."
   },
   {
-    title: "Beginner route",
-    href: "#",
-    eyebrow: "Video",
-    description: "Use a recent YouTube walkthrough for the first session or first major unlock."
+    title: "World 3 route",
+    href: "https://www.youtube.com/results?search_query=%2B1+Aura+Per+Click+World+3",
+    eyebrow: "YouTube",
+    description: "World 3 remains a visible YouTube query cluster and reinforces the dedicated update-status route."
   },
   {
-    title: "Meta showcase",
-    href: "#",
-    eyebrow: "Video",
-    description: "Use a YouTube video that supports rankings, builds, update context, or advanced strategy."
+    title: "Rebirth and treadmill checks",
+    href: "https://www.youtube.com/results?search_query=%2B1+Aura+Per+Click+rebirth",
+    eyebrow: "YouTube",
+    description: "Rebirth and treadmill searches still show up in current creator discovery, so these terms remain update-page priorities."
   }
 ];
 
@@ -276,17 +280,17 @@ export const faqs: Record<"home" | "codes" | "tierList" | "calculator", FaqItem[
   codes: [
     {
       q: `Where do ${gameConfig.name} codes come from?`,
-      a: "Use official Roblox descriptions, creator groups, Discord announcements, Trello boards, and trusted community trackers when available."
+      a: "Start with official Roblox or creator-owned surfaces. If those stay silent, cross-check major code trackers and keep the page in a no-claim state until a real code is confirmed."
     },
     {
-      q: "Why are some codes marked Needs check?",
-      a: "Uncertain rewards stay clearly labeled so the page does not overstate verification."
+      q: "Why does this page say no verified codes?",
+      a: "Because no current Aura Per Click code was confirmed from an official or creator-owned source during the July 2, 2026 refresh. It is safer to publish that clearly than to invent rewards."
     }
   ],
   tierList: [
     {
-      q: "How should the tier list be updated?",
-      a: "Replace placeholder tiers with research-backed rankings, explain use cases, and split beginner, farming, and endgame recommendations when needed."
+      q: "Why is the tier list about progression priorities?",
+      a: "Because the official public evidence currently supports mechanics such as clicking, treadmills, rebirth, and World 3 more clearly than it supports named units, pets, or traits."
     }
   ],
   calculator: [

@@ -49,6 +49,23 @@ export default function SourcesPage() {
           })}
         </div>
       </section>
+      <section className="mt-10 grid gap-4 md:grid-cols-3">
+        <article className="content-card">
+          <span className="mini-label">Official snapshot</span>
+          <h2 className="mt-3 text-xl font-bold text-white">Checked July 2, 2026</h2>
+          <p className="mt-2 text-sm leading-6 text-white/65">Roblox API data confirmed the current title, creator group, World 3 label, live players, visits, votes, and July 1, 2026 update timestamp.</p>
+        </article>
+        <article className="content-card">
+          <span className="mini-label">YouTube demand</span>
+          <h2 className="mt-3 text-xl font-bold text-white">Noob to pro, World 3, rebirth</h2>
+          <p className="mt-2 text-sm leading-6 text-white/65">Current YouTube discovery still repeats beginner, World 3, treadmill, and rebirth phrasing, so those terms remain safe update-page targets.</p>
+        </article>
+        <article className="content-card">
+          <span className="mini-label">Reject set</span>
+          <h2 className="mt-3 text-xl font-bold text-white">Aura RNG and Re:Aura</h2>
+          <p className="mt-2 text-sm leading-6 text-white/65">Related-game Aura phrases are visible in search, but they belong to different Roblox games and should not be merged into this site.</p>
+        </article>
+      </section>
     </main>
   );
 }

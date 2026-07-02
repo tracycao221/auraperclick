@@ -29,25 +29,31 @@ const statusRows = [
     label: "Official Roblox page",
     href: gameConfig.dataSources.officialGameUrl,
     status: "Primary source",
-    note: "Use this for the game title, creator, Roblox availability, badges, and public update text."
+    note: "Use this for the current title, creator, Roblox availability, live counts, and the July 1, 2026 platform update timestamp."
+  },
+  {
+    label: "Aura Software Roblox group",
+    href: "https://www.roblox.com/communities/988942002/Aura-Software#!/about",
+    status: "Nearest public creator surface",
+    note: "Use the creator group when a public Discord, Trello, or wiki link has not been verified yet."
   },
   {
     label: "Discord",
     href: gameConfig.dataSources.discord ?? "#",
-    status: gameConfig.dataSources.discord && gameConfig.dataSources.discord !== "#" ? "Candidate source" : "Needs verification",
-    note: "Use creator-owned Discord announcements when available. Avoid reposting unverified community rumors as facts."
+    status: gameConfig.dataSources.discord && gameConfig.dataSources.discord !== "#" ? "Candidate source" : "No official invite verified",
+    note: "Search demand exists, but this refresh did not verify a creator-owned public invite. Avoid reposting community-made servers as official."
   },
   {
     label: "Trello",
     href: gameConfig.dataSources.trello ?? "#",
     status: gameConfig.dataSources.trello && gameConfig.dataSources.trello !== "#" ? "Candidate source" : "No official board verified",
-    note: "Many Roblox players search for a Trello board even when the game does not publish one. Keep the status honest."
+    note: "Many Roblox players search for a Trello board even when the game does not publish one. Keep the status honest and dated."
   },
   {
     label: "Wiki",
     href: "/wiki",
-    status: "Site hub",
-    note: "Use the wiki hub for source-backed entities, mechanics, rewards, and guide links after research confirms them."
+    status: "No official wiki verified",
+    note: "Use the site wiki hub for source-backed entities, mechanics, rewards, and guide links until an official or creator-owned wiki appears."
   }
 ];
 
@@ -59,7 +65,7 @@ export default function TrelloStatusPage() {
       <PageIntro
         eyebrow="Community status"
         title={`${siteConfig.gameName} Trello, Discord & Wiki Status`}
-        description={`Use this page to check which ${siteConfig.gameName} community sources are official, which still need verification, and where to confirm codes, updates, and tier-list changes.`}
+        description={`Use this page to check which ${siteConfig.gameName} community sources are official, which still need verification, and how to separate source-backed pages from rumor-heavy search demand.`}
       />
       <AdsterraArticleTop />
 
@@ -67,7 +73,7 @@ export default function TrelloStatusPage() {
         <SectionHeader
           eyebrow="Official links"
           title="Source status"
-          copy="This page should be updated after research confirms the creator-owned links. Until then, uncertain links stay clearly labelled."
+          copy="This page was refreshed on July 2, 2026. Until creator-owned links are verified, uncertain links stay clearly labelled and non-clickable."
         />
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {statusRows.map((item) => {
@@ -119,6 +125,25 @@ export default function TrelloStatusPage() {
           <h2 className="mt-3 text-xl font-bold text-white">Source checklist</h2>
           <p className="mt-2 text-sm leading-6 text-white/65">Keep official, community, video, Reddit, and guide-site evidence separated so updates stay auditable.</p>
         </Link>
+      </section>
+      <section className="mt-10">
+        <SectionHeader
+          eyebrow="Disambiguation"
+          title="Keep Aura Per Click separate from other Aura games"
+          copy="Current search results also surface terms from games such as Aura RNG or Re:Aura. Only map phrases here when they clearly point to +1 Aura Per Click."
+        />
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <article className="content-card">
+            <span className="mini-label">Reject</span>
+            <h2 className="mt-3 text-xl font-bold text-white">Aura RNG terms</h2>
+            <p className="mt-2 text-sm leading-6 text-white/65">Do not fold Aura RNG ranks, rolls, or aura-value language into Aura Per Click pages unless a future source shows direct overlap.</p>
+          </article>
+          <article className="content-card">
+            <span className="mini-label">Reject</span>
+            <h2 className="mt-3 text-xl font-bold text-white">Re:Aura terms</h2>
+            <p className="mt-2 text-sm leading-6 text-white/65">Re:Aura is a different Roblox game. Treat it as a disambiguation case, not an expansion opportunity for this site.</p>
+          </article>
+        </div>
       </section>
       <AdsterraArticleBottom />
     </main>

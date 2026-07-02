@@ -6,18 +6,18 @@ import { Breadcrumbs, PageIntro, SectionHeader } from "@/components/ui/content";
 
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Codes`,
-  description: `Active ${siteConfig.gameName} codes, rewards, redemption steps, and source confidence notes.`,
+  description: `${siteConfig.gameName} code status, redemption steps, and July 2026 source-backed verification notes.`,
   alternates: { canonical: `${siteConfig.domain}/codes` },
   openGraph: {
     title: `${siteConfig.gameName} Codes`,
-    description: `Active ${siteConfig.gameName} codes, rewards, redemption steps, and source confidence notes.`,
+    description: `${siteConfig.gameName} code status, redemption steps, and July 2026 source-backed verification notes.`,
     url: `${siteConfig.domain}/codes`,
     images: ["/opengraph-image"]
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.gameName} Codes`,
-    description: `Active ${siteConfig.gameName} codes, rewards, redemption steps, and source confidence notes.`,
+    description: `${siteConfig.gameName} code status, redemption steps, and July 2026 source-backed verification notes.`,
     images: ["/opengraph-image"]
   }
 };
@@ -32,7 +32,7 @@ export default function CodesPage() {
       <PageIntro
         eyebrow="Freshness-sensitive"
         title={`${siteConfig.gameName} Codes`}
-        description="Use this page as the canonical codes surface. Replace placeholder rewards with verified codes from official and trusted community sources before launch."
+        description="Use this page as the canonical codes surface. July 2, 2026 checks found code demand, but no current code was confirmed from an official or creator-owned source."
       />
       <AdsterraArticleTop />
 
@@ -40,7 +40,7 @@ export default function CodesPage() {
         <SectionHeader
           eyebrow="Active list"
           title="Current best-known codes"
-          copy="Starter code entries stay marked Needs check until a current source or live test confirms the reward."
+          copy="Keep the page in a no-claim state until a current source or live test confirms a real reward. Search demand alone is not enough."
         />
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {activeCodes.map((code) => (
@@ -62,7 +62,7 @@ export default function CodesPage() {
           <SectionHeader
             eyebrow="Redeem flow"
             title="How to redeem codes"
-            copy="Update these steps after checking the live in-game UI. Roblox code flows often move between shop, settings, menu, and event panels."
+            copy="These steps are kept generic until the live in-game code button is checked again. Roblox code flows often move between shop, settings, menu, and event panels."
           />
           <ol className="mt-5 grid gap-3 text-white/70">
             <li>1. Open the game from the official Roblox page.</li>
@@ -75,7 +75,7 @@ export default function CodesPage() {
           <SectionHeader
             eyebrow="Verification"
             title="Code freshness policy"
-            copy="Codes should show the date checked, source type, and conflict notes when trackers disagree. Never hide uncertainty."
+            copy="Codes should show the date checked, source type, and conflict notes when trackers disagree. As of July 2, 2026, official Roblox metadata did not expose a code list."
           />
         </article>
       </section>

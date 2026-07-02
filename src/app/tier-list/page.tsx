@@ -7,18 +7,18 @@ import { Breadcrumbs, PageIntro, SectionHeader } from "@/components/ui/content";
 
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Tier List`,
-  description: `Best ${siteConfig.gameName} picks ranked for beginners, farming, and late-game progression.`,
+  description: `${siteConfig.gameName} progression priorities for codes, treadmills, rebirth, and World 3 planning.`,
   alternates: { canonical: `${siteConfig.domain}/tier-list` },
   openGraph: {
     title: `${siteConfig.gameName} Tier List`,
-    description: `Best ${siteConfig.gameName} picks ranked for beginners, farming, and late-game progression.`,
+    description: `${siteConfig.gameName} progression priorities for codes, treadmills, rebirth, and World 3 planning.`,
     url: `${siteConfig.domain}/tier-list`,
     images: ["/opengraph-image"]
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.gameName} Tier List`,
-    description: `Best ${siteConfig.gameName} picks ranked for beginners, farming, and late-game progression.`,
+    description: `${siteConfig.gameName} progression priorities for codes, treadmills, rebirth, and World 3 planning.`,
     images: ["/opengraph-image"]
   }
 };
@@ -34,7 +34,7 @@ export default function TierListPage() {
       <PageIntro
         eyebrow="Tier list"
         title={`${siteConfig.gameName} Tier List`}
-        description="Use this tier list to compare the best current picks, what each pick is good for, and what still needs checking before you spend rare resources."
+        description="Use this page as a progression-priority tier list until named entities, pets, or traits are verified from stronger public sources."
       />
       <AdsterraArticleTop />
 
@@ -59,8 +59,8 @@ export default function TierListPage() {
       <section className="mt-10">
         <SectionHeader
           eyebrow="Rankings"
-          title="Best current picks"
-          copy="Compare strong beginner, farming, team-combo, and late-game options with clear notes about when each pick is useful."
+          title="Best current progression priorities"
+          copy="Compare the public mechanics that are safe to plan around now, then expand into named entities only when stronger sources appear."
         />
         <div className="mt-6 grid gap-4">
           {tierPreview.map((item) => (
@@ -92,23 +92,23 @@ export default function TierListPage() {
       <section className="mt-10 grid gap-4 lg:grid-cols-3">
         <article className="content-card">
           <h3 className="text-lg font-bold text-white">Beginner ranking</h3>
-          <p className="mt-2 text-sm leading-6 text-white/66">Rank easy, safe, low-investment options for first-session players.</p>
+          <p className="mt-2 text-sm leading-6 text-white/66">Rank low-risk first steps such as code checks, clicking, and early treadmill use.</p>
         </article>
         <article className="content-card">
-          <h3 className="text-lg font-bold text-white">Farming ranking</h3>
-          <p className="mt-2 text-sm leading-6 text-white/66">Rank options by repeatable grind speed, income, survivability, or mission value.</p>
+          <h3 className="text-lg font-bold text-white">Training ranking</h3>
+          <p className="mt-2 text-sm leading-6 text-white/66">Rank official training loops by repeatable Aura gain and how often YouTube discovery still references them.</p>
         </article>
         <article className="content-card">
-          <h3 className="text-lg font-bold text-white">Endgame ranking</h3>
-          <p className="mt-2 text-sm leading-6 text-white/66">Rank the best late-game builds after unlock cost and skill ceiling are clear.</p>
+          <h3 className="text-lg font-bold text-white">Scaling ranking</h3>
+          <p className="mt-2 text-sm leading-6 text-white/66">Rank rebirth and World 3 planning once threshold numbers are verified from gameplay or creator-owned sources.</p>
         </article>
       </section>
 
       <section className="mt-10">
         <SectionHeader
-          eyebrow="Team combo notes"
-          title="Best picks need the right partners"
-          copy="For character, unit, or squad games, rank picks with synergy in mind instead of treating every unit as a solo carry."
+          eyebrow="Expansion note"
+          title="Add named entities only when sources support them"
+          copy="If future public sources repeatedly surface pets, traits, or other named systems, split them into exact pages instead of forcing them into a generic tier list."
         />
         <div className="mt-6 grid gap-4 md:grid-cols-3">
           <Link href="/guides" className="content-card">

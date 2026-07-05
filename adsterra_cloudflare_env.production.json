@@ -1,15 +1,31 @@
 {
-  "generatedAt": "2026-07-01T12:15:25Z",
+  "generatedAt": "2026-07-05T14:35:31Z",
   "domain": "auraperclick.com",
   "project": "aura-per-click-git",
   "status": "ready_to_apply",
   "productionEnv": {
-    "NEXT_PUBLIC_ADSTERRA_ENABLE_POPUNDER": "false",
+    "NEXT_PUBLIC_ADSTERRA_ENABLE_POPUNDER": "true",
     "NEXT_PUBLIC_ADSTERRA_POPUNDER_DELAY_MS": "30000",
     "NEXT_PUBLIC_ADSTERRA_POPUNDER_MIN_PAGEVIEWS": "2",
     "NEXT_PUBLIC_ADSTERRA_ENABLE_SOCIAL_BAR": "true",
-    "NEXT_PUBLIC_ADSTERRA_ENABLE_STICKY_RAIL": "false",
-    "NEXT_PUBLIC_ADSTERRA_SOCIAL_BAR_SCRIPT_URL": "https://pl30153810.effectivecpmnetwork.com/61/d0/71/61d07168976e9daac50f0879e12c5153.js"
+    "NEXT_PUBLIC_ADSTERRA_ENABLE_STICKY_RAIL": "true",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_468X60_KEY": "1a34e668202a3fe5787984eb88d4f7c4",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_468X60_SCRIPT_URL": "https://www.highperformanceformat.com/1a34e668202a3fe5787984eb88d4f7c4/invoke.js",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_300X250_KEY": "57ad1b4ea444d333d7bfd6d7746c3369",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_300X250_SCRIPT_URL": "https://www.highperformanceformat.com/57ad1b4ea444d333d7bfd6d7746c3369/invoke.js",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_160X300_KEY": "ebf842e990148f7a0e36e535abd8c8c5",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_160X300_SCRIPT_URL": "https://www.highperformanceformat.com/ebf842e990148f7a0e36e535abd8c8c5/invoke.js",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_160X600_KEY": "97b0ee46841fdddc68c0fe45d198b20d",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_160X600_SCRIPT_URL": "https://www.highperformanceformat.com/97b0ee46841fdddc68c0fe45d198b20d/invoke.js",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_320X50_KEY": "080aaf7c41837d70563cca6774520ce5",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_320X50_SCRIPT_URL": "https://www.highperformanceformat.com/080aaf7c41837d70563cca6774520ce5/invoke.js",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_728X90_KEY": "56895d88924876c856a2a2c0176d44d8",
+    "NEXT_PUBLIC_ADSTERRA_BANNER_728X90_SCRIPT_URL": "https://www.highperformanceformat.com/56895d88924876c856a2a2c0176d44d8/invoke.js",
+    "NEXT_PUBLIC_ADSTERRA_NATIVE_1_ID": "container-9f4987b99a324198409c360da4c01704",
+    "NEXT_PUBLIC_ADSTERRA_NATIVE_1_SCRIPT_URL": "https://pl30200477.effectivecpmnetwork.com/9f4987b99a324198409c360da4c01704/invoke.js",
+    "NEXT_PUBLIC_ADSTERRA_SOCIAL_BAR_SCRIPT_URL": "https://pl30153810.effectivecpmnetwork.com/61/d0/71/61d07168976e9daac50f0879e12c5153.js",
+    "NEXT_PUBLIC_ADSTERRA_POPUNDER_SCRIPT_URL": "https://pl30200476.effectivecpmnetwork.com/f0/d9/93/f0d9937fc3669f7844ce806e9cc17892.js",
+    "NEXT_PUBLIC_ADSTERRA_SMARTLINK_URL": "https://www.effectivecpmnetwork.com/itsa1ed7ud?key=f36f7b89585d886e69bb4afdecdfea06"
   },
   "note": "Public Adsterra runtime values only. Private API keys and Cloudflare tokens are never written here."
 }

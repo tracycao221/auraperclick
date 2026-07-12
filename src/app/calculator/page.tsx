@@ -8,7 +8,7 @@ import { Breadcrumbs, PageIntro } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Calculator`,
   description: `Use the ${siteConfig.gameName} calculator starter to plan codes, farming, boss prep, PvP, and progression decisions.`,
-  alternates: { canonical: `${siteConfig.domain}/calculator` }
+  alternates: { canonical: `${siteConfig.domain}/calculator/` }
 };
 
 export default function CalculatorPage() {

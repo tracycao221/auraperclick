@@ -8,7 +8,7 @@ import { AdsterraArticleBottom, AdsterraArticleTop } from "@/components/ads";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Treadmills`,
   description: "Aura Per Click treadmill wiki notes for training Aura and checking source confidence.",
-  alternates: { canonical: `${siteConfig.domain}/wiki/treadmills` }
+  alternates: { canonical: `${siteConfig.domain}/wiki/treadmills/` }
 };
 
 export default function TreadmillsWikiPage() {

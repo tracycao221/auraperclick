@@ -8,7 +8,7 @@ import { AdsterraArticleBottom, AdsterraArticleTop } from "@/components/ads";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Rebirth Guide`,
   description: "Aura Per Click rebirth guide with multiplier planning and data-gap warnings.",
-  alternates: { canonical: `${siteConfig.domain}/guides/rebirth` }
+  alternates: { canonical: `${siteConfig.domain}/guides/rebirth/` }
 };
 
 export default function RebirthGuidePage() {

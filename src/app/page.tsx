@@ -21,11 +21,11 @@ import { BrandHero } from "@/components/home/BrandHero";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Wiki, Codes, Tier List and Tools`,
   description: siteConfig.description,
-  alternates: { canonical: siteConfig.domain },
+  alternates: { canonical: `${siteConfig.domain}/` },
   openGraph: {
     title: `${siteConfig.gameName} Wiki, Codes and Tools`,
     description: siteConfig.description,
-    url: siteConfig.domain,
+    url: `${siteConfig.domain}/`,
     type: "website",
     images: [{ url: "/opengraph-image" }]
   },

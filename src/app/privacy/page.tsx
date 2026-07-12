@@ -5,7 +5,7 @@ import { Breadcrumbs, PageIntro } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.name} Privacy Policy`,
   description: `Privacy Policy for ${siteConfig.name}, including analytics, advertising, and third-party cookie disclosures.`,
-  alternates: { canonical: `${siteConfig.domain}/privacy` }
+  alternates: { canonical: `${siteConfig.domain}/privacy/` }
 };
 
 export default function PrivacyPage() {

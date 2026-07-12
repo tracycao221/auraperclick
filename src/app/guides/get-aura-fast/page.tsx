@@ -8,7 +8,7 @@ import { AdsterraArticleBottom, AdsterraArticleTop } from "@/components/ads";
 export const metadata: Metadata = {
   title: `How to Get Aura Fast in ${siteConfig.gameName}`,
   description: "Get Aura fast in Aura Per Click with source-backed priorities and estimated planning.",
-  alternates: { canonical: `${siteConfig.domain}/guides/get-aura-fast` }
+  alternates: { canonical: `${siteConfig.domain}/guides/get-aura-fast/` }
 };
 
 export default function GetAuraFastPage() {

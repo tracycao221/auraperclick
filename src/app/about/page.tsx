@@ -5,7 +5,7 @@ import { Breadcrumbs, PageIntro } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `About ${siteConfig.name}`,
   description: `About ${siteConfig.name}, its author, editorial process, and source standards.`,
-  alternates: { canonical: `${siteConfig.domain}/about` }
+  alternates: { canonical: `${siteConfig.domain}/about/` }
 };
 
 export default function AboutPage() {

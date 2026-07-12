@@ -5,7 +5,7 @@ import { Breadcrumbs, PageIntro } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.name} Terms of Service`,
   description: `Terms of Service for using ${siteConfig.name}.`,
-  alternates: { canonical: `${siteConfig.domain}/terms` }
+  alternates: { canonical: `${siteConfig.domain}/terms/` }
 };
 
 export default function TermsPage() {

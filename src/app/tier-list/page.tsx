@@ -8,11 +8,11 @@ import { Breadcrumbs, PageIntro, SectionHeader } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Tier List`,
   description: `${siteConfig.gameName} progression priorities for codes, treadmills, rebirth, and World 3 planning.`,
-  alternates: { canonical: `${siteConfig.domain}/tier-list` },
+  alternates: { canonical: `${siteConfig.domain}/tier-list/` },
   openGraph: {
     title: `${siteConfig.gameName} Tier List`,
     description: `${siteConfig.gameName} progression priorities for codes, treadmills, rebirth, and World 3 planning.`,
-    url: `${siteConfig.domain}/tier-list`,
+    url: `${siteConfig.domain}/tier-list/`,
     images: ["/opengraph-image"]
   },
   twitter: {

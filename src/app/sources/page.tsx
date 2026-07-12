@@ -7,7 +7,7 @@ import { Breadcrumbs, PageIntro, SectionHeader } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Sources`,
   description: `Source and verification notes for ${siteConfig.gameName} codes, guides, wiki claims, and tier-list updates.`,
-  alternates: { canonical: `${siteConfig.domain}/sources` }
+  alternates: { canonical: `${siteConfig.domain}/sources/` }
 };
 
 export default function SourcesPage() {

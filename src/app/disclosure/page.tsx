@@ -5,7 +5,7 @@ import { Breadcrumbs, PageIntro } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.name} Fan-made Disclosure`,
   description: `Unofficial fan-made disclosure for ${siteConfig.name}.`,
-  alternates: { canonical: `${siteConfig.domain}/disclosure` }
+  alternates: { canonical: `${siteConfig.domain}/disclosure/` }
 };
 
 export default function DisclosurePage() {

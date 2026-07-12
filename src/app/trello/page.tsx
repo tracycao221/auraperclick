@@ -9,11 +9,11 @@ import { Breadcrumbs, PageIntro, SectionHeader } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Trello, Discord & Wiki Status`,
   description: `Official-link status for ${siteConfig.gameName} Trello, Discord, wiki, Roblox updates, codes, and community sources.`,
-  alternates: { canonical: `${siteConfig.domain}/trello` },
+  alternates: { canonical: `${siteConfig.domain}/trello/` },
   openGraph: {
     title: `${siteConfig.gameName} Trello, Discord & Wiki Status`,
     description: `Check verified ${siteConfig.gameName} source status for Trello, Discord, wiki, Roblox updates, and codes.`,
-    url: `${siteConfig.domain}/trello`,
+    url: `${siteConfig.domain}/trello/`,
     images: [{ url: "/opengraph-image" }]
   },
   twitter: {

@@ -8,7 +8,7 @@ import { Breadcrumbs, PageIntro, SectionHeader } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Wiki`,
   description: `${siteConfig.gameName} wiki hub for items, maps, systems, builds, rewards, and Roblox game entities.`,
-  alternates: { canonical: `${siteConfig.domain}/wiki` }
+  alternates: { canonical: `${siteConfig.domain}/wiki/` }
 };
 
 export default function WikiPage() {

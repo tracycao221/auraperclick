@@ -8,7 +8,7 @@ import { AdsterraArticleBottom, AdsterraArticleTop } from "@/components/ads";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} World 3 Update`,
   description: "Aura Per Click World 3 status, source notes, and what to verify before relying on world requirements.",
-  alternates: { canonical: `${siteConfig.domain}/updates/world-3` }
+  alternates: { canonical: `${siteConfig.domain}/updates/world-3/` }
 };
 
 export default function World3UpdatePage() {

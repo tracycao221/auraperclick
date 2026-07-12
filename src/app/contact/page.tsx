@@ -5,7 +5,7 @@ import { Breadcrumbs, PageIntro } from "@/components/ui/content";
 export const metadata: Metadata = {
   title: `Contact ${siteConfig.name}`,
   description: `Contact and correction guidance for ${siteConfig.name}.`,
-  alternates: { canonical: `${siteConfig.domain}/contact` }
+  alternates: { canonical: `${siteConfig.domain}/contact/` }
 };
 
 export default function ContactPage() {

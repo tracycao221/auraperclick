@@ -8,7 +8,7 @@ import { AdsterraArticleBottom, AdsterraArticleTop } from "@/components/ads";
 export const metadata: Metadata = {
   title: `How to Train Aura in ${siteConfig.gameName}`,
   description: "Aura Per Click training guide for treadmills, clicking, and estimated Aura gain.",
-  alternates: { canonical: `${siteConfig.domain}/guides/train-aura` }
+  alternates: { canonical: `${siteConfig.domain}/guides/train-aura/` }
 };
 
 export default function TrainAuraPage() {

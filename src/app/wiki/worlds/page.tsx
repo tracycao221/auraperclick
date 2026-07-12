@@ -8,7 +8,7 @@ import { AdsterraArticleBottom, AdsterraArticleTop } from "@/components/ads";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Worlds`,
   description: "Aura Per Click worlds wiki with World 3 status and verified source notes.",
-  alternates: { canonical: `${siteConfig.domain}/wiki/worlds` }
+  alternates: { canonical: `${siteConfig.domain}/wiki/worlds/` }
 };
 
 export default function WorldsWikiPage() {

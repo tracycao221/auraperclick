@@ -8,7 +8,7 @@ import { AdsterraArticleBottom, AdsterraArticleTop } from "@/components/ads";
 export const metadata: Metadata = {
   title: `${siteConfig.gameName} Beginner Guide`,
   description: "Start Aura Per Click with codes, Aura gain, treadmill training, rebirth planning, and World 3 source notes.",
-  alternates: { canonical: `${siteConfig.domain}/guides/beginner` }
+  alternates: { canonical: `${siteConfig.domain}/guides/beginner/` }
 };
 
 export default function BeginnerGuidePage() {

@@ -16,7 +16,7 @@ export default function TrainAuraPage() {
     <main className="mx-auto max-w-7xl px-4 py-10">
       <BreadcrumbJsonLd items={[{ name: "Home", href: "/" }, { name: "Guides", href: "/guides" }, { name: "Train Aura", href: "/guides/train-aura" }]} />
       <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: "Train Aura", href: "/guides/train-aura" }]} />
-      <PageIntro eyebrow="Training" title="How to Train Aura" description="The Roblox listing says players train Aura on treadmills. This guide explains how to use that signal without inventing unverified rates." />
+      <PageIntro eyebrow="Training" title="How to Train Aura" description="The Roblox listing says players train Aura on treadmills. This guide explains how to use that signal without inventing unverified rates. Current YouTube discovery still repeats treadmill phrasing, so this route stays current." />
       <AdsterraArticleTop />
       <section className="mt-10 grid gap-4 md:grid-cols-3">
         <ContentPanel><h2 className="text-xl font-bold text-white">Find training</h2><p className="mt-3 text-sm leading-6 text-white/66">Use treadmill training when available, then compare your result with regular clicking.</p></ContentPanel>

@@ -106,6 +106,31 @@ export default function TierListPage() {
 
       <section className="mt-10">
         <SectionHeader
+          eyebrow="Source-status coverage"
+          title="Best pet and egg searches need claim-state answers"
+          copy="Public discovery still shows enough demand to answer these searches on-site, but the answer is still a status note: no stable pet list, egg table, or hatch-rate sheet was verified from official or creator-owned sources in the July 12 refresh."
+        />
+        <div className="mt-6 grid gap-4 md:grid-cols-3">
+          <article className="content-card">
+            <span className="mini-label">Best pet</span>
+            <h3 className="mt-3 text-lg font-bold text-white">Use the pets watch page, not a made-up ranking</h3>
+            <p className="mt-2 text-sm leading-6 text-white/66">Recent YouTube and Google discovery show real demand for best-pet phrasing, and public gamepass surfaces now confirm that pets exist. Pet names and tier placements are still unverified, so use the dedicated pets watch page instead of trusting recycled ranking pages.</p>
+          </article>
+          <article className="content-card">
+            <span className="mini-label">Eggs</span>
+            <h3 className="mt-3 text-lg font-bold text-white">Egg intent exists, but the system is still unverified</h3>
+            <p className="mt-2 text-sm leading-6 text-white/66">Egg phrasing appears in public search, yet the current source packet does not confirm an official egg loop, egg names, or drop tables. Treat egg pages and exploit-heavy results as unverified until stronger public evidence appears.</p>
+          </article>
+          <Link href="/wiki/pets" className="content-card">
+            <span className="mini-label">Source watch</span>
+            <h3 className="mt-3 text-lg font-bold text-white">Read the pets evidence</h3>
+            <p className="mt-2 text-sm leading-6 text-white/66">Check the current public evidence for pet storage, pet equip slots, and the remaining gaps before trusting best-pet claims.</p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <SectionHeader
           eyebrow="Expansion note"
           title="Add named entities only when sources support them"
           copy="If future public sources repeatedly surface pets, traits, or other named systems, split them into exact pages instead of forcing them into a generic tier list."

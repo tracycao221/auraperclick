@@ -16,7 +16,7 @@ export default function GetAuraFastPage() {
     <main className="mx-auto max-w-7xl px-4 py-10">
       <BreadcrumbJsonLd items={[{ name: "Home", href: "/" }, { name: "Guides", href: "/guides" }, { name: "Get Aura Fast", href: "/guides/get-aura-fast" }]} />
       <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: "Get Aura Fast", href: "/guides/get-aura-fast" }]} />
-      <PageIntro eyebrow="Progression" title="How to Get Aura Fast" description="Use a simple loop: check codes, click consistently, train on treadmills, and use rebirth multipliers when your in-game threshold makes sense." />
+      <PageIntro eyebrow="Progression" title="How to Get Aura Fast" description="Use a simple loop: check codes, click consistently, train on treadmills, and use rebirth multipliers when your in-game threshold makes sense. Current YouTube discovery still repeats fastest-aura phrasing, so this route stays current." />
       <AdsterraArticleTop />
       <section className="mt-10 grid gap-4 md:grid-cols-4">
         {["Codes", "Clicking", "Treadmills", "Rebirth"].map((item) => (

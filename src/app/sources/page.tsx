@@ -52,18 +52,18 @@ export default function SourcesPage() {
       <section className="mt-10 grid gap-4 md:grid-cols-3">
         <article className="content-card">
           <span className="mini-label">Official snapshot</span>
-          <h2 className="mt-3 text-xl font-bold text-white">Checked July 2, 2026</h2>
-          <p className="mt-2 text-sm leading-6 text-white/65">Roblox API data confirmed the current title, creator group, World 3 label, live players, visits, votes, and July 1, 2026 update timestamp.</p>
+          <h2 className="mt-3 text-xl font-bold text-white">Checked July 13, 2026</h2>
+          <p className="mt-2 text-sm leading-6 text-white/65">The current official Roblox title is still `+1 Aura Per Click`, while the official description still supports treadmills and rebirth and the Aura Software creator surface remains unchanged. The official Roblox APIs now show 249,219 upvotes versus 2,636 downvotes, 3,959 live players, 46,020,602 visits, 3,012,343 favorites, and the same `updated` timestamp of July 11, 2026.</p>
         </article>
         <article className="content-card">
           <span className="mini-label">YouTube demand</span>
-          <h2 className="mt-3 text-xl font-bold text-white">Noob to pro, World 3, rebirth</h2>
-          <p className="mt-2 text-sm leading-6 text-white/65">Current YouTube discovery still repeats beginner, World 3, treadmill, and rebirth phrasing, so those terms remain safe update-page targets.</p>
+          <h2 className="mt-3 text-xl font-bold text-white">World 3, rebirth, treadmill, fastest aura, pet watch</h2>
+          <p className="mt-2 text-sm leading-6 text-white/65">Current YouTube discovery still repeats World 3, rebirth, treadmill, fastest-aura, and best-pet phrasing. That is strong enough to keep the existing guide and pets source-watch routes fresh, but not strong enough to publish pet names, pet tiers, egg tables, or hatch rates as settled facts.</p>
         </article>
         <article className="content-card">
           <span className="mini-label">Reject set</span>
-          <h2 className="mt-3 text-xl font-bold text-white">Aura RNG and Re:Aura</h2>
-          <p className="mt-2 text-sm leading-6 text-white/65">Related-game Aura phrases are visible in search, but they belong to different Roblox games and should not be merged into this site.</p>
+          <h2 className="mt-3 text-xl font-bold text-white">Aura RNG, Re:Aura, exploit scripts</h2>
+          <p className="mt-2 text-sm leading-6 text-white/65">Related-game Aura phrases and exploit-script queries are visible in search, but they belong to different games or unsafe intent clusters and should not be merged into this site.</p>
         </article>
       </section>
     </main>

@@ -29,13 +29,13 @@ const statusRows = [
     label: "Official Roblox page",
     href: gameConfig.dataSources.officialGameUrl,
     status: "Primary source",
-    note: "Use this for the current title, creator, Roblox availability, live counts, and the July 1, 2026 platform update timestamp."
+    note: "Use this for the current title, description bullets, creator, Roblox availability, live counts, and the latest official update timestamp."
   },
   {
     label: "Aura Software Roblox group",
     href: "https://www.roblox.com/communities/988942002/Aura-Software#!/about",
     status: "Nearest public creator surface",
-    note: "Use the creator group when a public Discord, Trello, or wiki link has not been verified yet."
+    note: "Use the creator group when a public Discord, Trello, or wiki link has not been verified yet. The official Roblox API still ties the live game to Aura Software group 988942002."
   },
   {
     label: "Discord",
@@ -73,7 +73,7 @@ export default function TrelloStatusPage() {
         <SectionHeader
           eyebrow="Official links"
           title="Source status"
-          copy="This page was refreshed on July 2, 2026. Until creator-owned links are verified, uncertain links stay clearly labelled and non-clickable."
+          copy="This page was refreshed on July 13, 2026. Until creator-owned links are verified, uncertain links stay clearly labelled and non-clickable. Search demand still exists for Trello, Discord, and wiki terms even though no official public board or invite was confirmed."
         />
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {statusRows.map((item) => {

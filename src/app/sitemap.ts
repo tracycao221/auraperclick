@@ -21,6 +21,7 @@ const routes: Array<{
   { path: "/wiki", changeFrequency: "weekly", priority: 0.8 },
   { path: "/wiki/rebirth", changeFrequency: "weekly", priority: 0.75 },
   { path: "/wiki/treadmills", changeFrequency: "weekly", priority: 0.75 },
+  { path: "/wiki/pets", changeFrequency: "weekly", priority: 0.75 },
   { path: "/wiki/worlds", changeFrequency: "weekly", priority: 0.75 },
   { path: "/updates/world-3", changeFrequency: "daily", priority: 0.75 },
   { path: "/sources", changeFrequency: "monthly", priority: 0.5 },

@@ -16,7 +16,7 @@ export default function RebirthGuidePage() {
     <main className="mx-auto max-w-7xl px-4 py-10">
       <BreadcrumbJsonLd items={[{ name: "Home", href: "/" }, { name: "Guides", href: "/guides" }, { name: "Rebirth Guide", href: "/guides/rebirth" }]} />
       <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: "Rebirth", href: "/guides/rebirth" }]} />
-      <PageIntro eyebrow="Guide" title="Aura Per Click Rebirth Guide" description="Rebirth is the multiplier system mentioned on the Roblox page. Exact thresholds are still being checked, so plan with estimates." />
+      <PageIntro eyebrow="Guide" title="Aura Per Click Rebirth Guide" description="Rebirth is the multiplier system mentioned on the Roblox page. Exact thresholds are still being checked, so plan with estimates. Current YouTube discovery still repeats rebirth phrasing, so this route stays fresh." />
       <AdsterraArticleTop />
       <section className="mt-10 grid gap-4 md:grid-cols-3">
         <ContentPanel><h2 className="text-xl font-bold text-white">Before rebirth</h2><p className="mt-3 text-sm leading-6 text-white/66">Check your current Aura gain and whether a longer training session would reach the next threshold.</p></ContentPanel>

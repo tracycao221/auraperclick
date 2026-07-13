@@ -29,7 +29,7 @@ export default function WikiPage() {
           title="Choose the wiki topic you need"
           copy="Start with the topics that affect your next upgrade, clear, reward, build, or route decision."
         />
-        <div className="mt-6 grid gap-4 md:grid-cols-3">
+        <div className="mt-6 grid gap-4 md:grid-cols-4">
           {wikiCards.map((card) => (
             <Link key={card.title} href={card.href} className="content-card">
               <span className="mini-label">{card.eyebrow}</span>
@@ -39,10 +39,11 @@ export default function WikiPage() {
           ))}
         </div>
       </section>
-      <section className="mt-10 grid gap-3 md:grid-cols-3" aria-label="Wiki quick links">
+      <section className="mt-10 grid gap-3 md:grid-cols-4" aria-label="Wiki quick links">
         <Link href="/wiki/rebirth" className="content-card">Rebirth wiki</Link>
         <Link href="/wiki/treadmills" className="content-card">Treadmills wiki</Link>
         <Link href="/wiki/worlds" className="content-card">Worlds wiki</Link>
+        <Link href="/wiki/pets" className="content-card">Pets wiki</Link>
       </section>
       <AdsterraArticleBottom />
     </main>

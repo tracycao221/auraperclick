@@ -19,13 +19,13 @@ export default function WorldsWikiPage() {
       <PageIntro
         eyebrow="Wiki"
         title="Aura Per Click Worlds"
-        description="The current Roblox title includes World 3. This page keeps world information separate from guesses until unlock requirements are verified."
+        description="World 3 remains a watched phrase for Aura Per Click, but the current official Roblox title is now simply +1 Aura Per Click. This page keeps world information separate from guesses until unlock requirements are verified."
       />
       <AdsterraArticleTop />
       <section className="mt-10 grid gap-4 md:grid-cols-3">
         <ContentPanel>
-          <h2 className="text-xl font-bold text-white">World 3</h2>
-          <p className="mt-3 text-sm leading-6 text-white/66">Verified from the current Roblox title: Aura Per Click is using a World 3 update label.</p>
+          <h2 className="text-xl font-bold text-white">World 3 status</h2>
+          <p className="mt-3 text-sm leading-6 text-white/66">World 3 still appears in public search and YouTube phrasing, but the current official Roblox title is now `+1 Aura Per Click` rather than a visible World 3 label.</p>
         </ContentPanel>
         <ContentPanel>
           <h2 className="text-xl font-bold text-white">World Gates</h2>

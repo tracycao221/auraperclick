@@ -19,7 +19,7 @@ export default function World3UpdatePage() {
       <PageIntro eyebrow="Update status" title="Aura Per Click World 3" description="World 3 remains a live search-demand and community-watch phrase, but the current official Roblox title is now simply +1 Aura Per Click and no longer carries a visible World 3 label. Exact unlocks, rewards, and world requirements still need checking before they are treated as final." />
       <AdsterraArticleTop />
       <section className="mt-10 grid gap-4 md:grid-cols-3">
-        <ContentPanel><h2 className="text-xl font-bold text-white">Official now</h2><p className="mt-3 text-sm leading-6 text-white/66">The official Roblox page still shows a fresh `updated` timestamp of July 11, 2026, but the live title is now `+1 Aura Per Click` rather than a visible World 3 label.</p></ContentPanel>
+        <ContentPanel><h2 className="text-xl font-bold text-white">Official now</h2><p className="mt-3 text-sm leading-6 text-white/66">The official Roblox page now shows a fresher `updated` timestamp of July 14, 2026, but the live title is still `+1 Aura Per Click` rather than a visible World 3 label.</p></ContentPanel>
         <ContentPanel><h2 className="text-xl font-bold text-white">Search signal</h2><p className="mt-3 text-sm leading-6 text-white/66">Current YouTube discovery still repeats World 3 phrasing, so the route stays live as a source-watch page instead of being removed.</p></ContentPanel>
         <ContentPanel><h2 className="text-xl font-bold text-white">Check next</h2><p className="mt-3 text-sm leading-6 text-white/66">Use sources, codes, and the pets watch page before trusting community-only claims about new unlocks, worlds, or rewards.</p></ContentPanel>
       </section>

@@ -73,7 +73,7 @@ export default function TrelloStatusPage() {
         <SectionHeader
           eyebrow="Official links"
           title="Source status"
-          copy="This page was refreshed on July 15, 2026. Until creator-owned links are verified, uncertain links stay clearly labelled and non-clickable. Search demand still exists for Trello, Discord, and wiki terms even though no official public board or invite was confirmed."
+          copy="This page was refreshed on July 20, 2026. Until creator-owned links are verified, uncertain links stay clearly labelled and non-clickable. Search demand still exists for Trello, Discord, and wiki terms even though no official public board or invite was confirmed."
         />
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {statusRows.map((item) => {

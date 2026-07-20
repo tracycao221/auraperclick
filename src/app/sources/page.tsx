@@ -52,8 +52,8 @@ export default function SourcesPage() {
       <section className="mt-10 grid gap-4 md:grid-cols-3">
         <article className="content-card">
           <span className="mini-label">Official snapshot</span>
-          <h2 className="mt-3 text-xl font-bold text-white">Checked July 15, 2026</h2>
-          <p className="mt-2 text-sm leading-6 text-white/65">The current official Roblox title is still `+1 Aura Per Click`, while the official description still supports treadmills and rebirth and the Aura Software creator surface remains unchanged. The official Roblox APIs now show 251,712 upvotes versus 2,665 downvotes, 5,075 live players, 47,041,519 visits, 3,070,410 favorites, and a fresher `updated` timestamp of July 14, 2026.</p>
+          <h2 className="mt-3 text-xl font-bold text-white">Checked July 20, 2026</h2>
+          <p className="mt-2 text-sm leading-6 text-white/65">The current official Roblox page still titles the game `+1 Aura Per Click`, still names treadmills and rebirth in the description, and still points to Aura Software as the creator. The official Roblox APIs showed 268,342 upvotes versus 2,856 downvotes, 6,498 live players, 51,898,181 visits, 3,391,639 favorites, and a latest game update timestamp of 2026-07-19T14:58:51Z during the July 20, 2026 refresh.</p>
         </article>
         <article className="content-card">
           <span className="mini-label">YouTube demand</span>

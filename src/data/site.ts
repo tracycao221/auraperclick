@@ -8,8 +8,8 @@ export const siteConfig: SiteConfig = {
   description: `${gameConfig.name} wiki with source-backed code status, World 3 source-watch notes, Trello and Discord checks, calculators, guides, and practical Roblox progression help.`,
   valueProposition: `Check ${gameConfig.name} code status, world-status notes, and progression priorities before you commit time to grinding in Roblox.`,
   shortDisclosure: `${gameConfig.name} Wiki is an unofficial fan-made resource. Roblox and the game creators remain the source of record for official support and updates.`,
-  lastUpdated: "2026-07-15",
-  freshnessLabel: "Roblox, YouTube, Google, and source-status checks refreshed on July 15, 2026",
+  lastUpdated: "2026-07-20",
+  freshnessLabel: "Roblox official API, YouTube, Google, and source-status checks refreshed on July 20, 2026",
   keywords: [
     `${gameConfig.name}`,
     `+1 ${gameConfig.name}`,
@@ -85,15 +85,16 @@ export const heroActions = [
 ] as const;
 
 export const heroMetrics: HeroMetric[] = [
-  { label: "Live players", value: "5.1k", note: "Official Roblox API checked on July 15, 2026." },
-  { label: "Visits", value: "47.0M", note: "Official Roblox API checked on July 15, 2026." },
-  { label: "Like ratio", value: "99.0%", note: "251,712 upvotes vs 2,665 downvotes from the Roblox votes endpoint on July 15, 2026." },
+  { label: "Official title", value: "+1", note: "The official Roblox page still names the game +1 Aura Per Click on July 20, 2026." },
+  { label: "Roblox update", value: "2026-07-19", note: "The official Roblox API still shows the latest game update timestamp on July 19, 2026." },
+  { label: "Like ratio", value: "98.9%", note: "268,342 upvotes vs 2,856 downvotes from the Roblox votes endpoint on July 20, 2026." },
+  { label: "Live players", value: "6.5k", note: "The official Roblox games API showed 6,498 live players on July 20, 2026." },
   { label: "Fresh route set", value: "16", note: "Codes, World 3, pets, guides, wiki, tools, and trust pages" }
 ];
 
 export const activeCodes: GameCode[] = [
-  { code: "NO VERIFIED CODE", reward: "No current code has been confirmed from an official or creator-owned source in the July 15, 2026 refresh, even though public code-demand videos are still active.", status: "Verified", addedDate: "Checked 2026-07-15" },
-  { code: "WATCH WORLD 3 & PET SIGNALS", reward: "World 3 and best-pet phrasing still lead public search and YouTube clusters, but the official Roblox title stays +1 Aura Per Click and no creator-owned code drop was verified in the July 15 refresh.", status: "Verified", addedDate: "Checked 2026-07-15" }
+  { code: "NO VERIFIED CODE", reward: "No current code has been confirmed from an official or creator-owned source in the July 20, 2026 refresh, even though public code-demand queries are still active.", status: "Verified", addedDate: "Checked 2026-07-20" },
+  { code: "WATCH WORLD 3 & PET SIGNALS", reward: "World 3 and best-pet phrasing still lead the public search surface, but the official Roblox title stays +1 Aura Per Click and no creator-owned code drop was verified in the July 20 refresh.", status: "Verified", addedDate: "Checked 2026-07-20" }
 ];
 
 export const tierPreview: TierPreviewItem[] = [
@@ -101,7 +102,7 @@ export const tierPreview: TierPreviewItem[] = [
     name: "Code status first",
     tier: "S",
     role: "Freshness priority",
-    reason: "The search demand is heavily codes-led, but no official code was verified on July 15, 2026, so the safest first action is to check live code status before long sessions or fresh World 3 or pet grinds.",
+    reason: "The search demand is heavily codes-led, but no official code was verified on July 20, 2026, so the safest first action is to check live code status before long sessions or fresh World 3 or pet grinds.",
     confidence: "Source-backed",
     bestFor: ["returning players", "fast checks"],
     sourceNote: "Backed by Roblox metadata plus live code-query and code-site cross-checks with no official claim found.",
@@ -251,7 +252,7 @@ export const videoGuides: LinkCard[] = [
     title: "Noob to pro discovery",
     href: "https://www.youtube.com/results?search_query=%2B1+Aura+Per+Click+Noob+To+Pro",
     eyebrow: "YouTube",
-    description: "Current YouTube discovery still shows beginner-style phrasing, but it stayed weaker than World 3, rebirth, pet-system, and fastest-aura guide signals in the July 15 check."
+    description: "Current YouTube discovery still shows beginner-style phrasing, but it stayed weaker than World 3, rebirth, pet-system, and fastest-aura guide signals in the July 20 check."
   },
   {
     title: "World 3 route",
@@ -293,7 +294,7 @@ export const faqs: Record<"home" | "codes" | "tierList" | "calculator", FaqItem[
     },
     {
       q: "Why does this page say no verified codes?",
-      a: "Because no current Aura Per Click code was confirmed from an official or creator-owned source during the July 15, 2026 refresh. It is safer to publish that clearly than to invent rewards."
+      a: "Because no current Aura Per Click code was confirmed from an official or creator-owned source during the July 20, 2026 refresh. It is safer to publish that clearly than to invent rewards."
     }
   ],
   tierList: [

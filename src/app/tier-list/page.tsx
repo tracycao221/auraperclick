@@ -108,7 +108,7 @@ export default function TierListPage() {
         <SectionHeader
           eyebrow="Source-status coverage"
           title="Best pet and egg searches need claim-state answers"
-          copy="Public discovery still shows enough demand to answer these searches on-site, but the answer is still a status note: no stable pet list, egg table, or hatch-rate sheet was verified from official or creator-owned sources in the July 12 refresh."
+          copy="Public discovery still shows enough demand to answer these searches on-site, but the answer is still a status note: no stable pet list, egg table, or hatch-rate sheet was verified from official or creator-owned sources in the July 20 refresh."
         />
         <div className="mt-6 grid gap-4 md:grid-cols-3">
           <article className="content-card">

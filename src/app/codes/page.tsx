@@ -32,7 +32,7 @@ export default function CodesPage() {
       <PageIntro
         eyebrow="Freshness-sensitive"
         title={`${siteConfig.gameName} Codes`}
-        description="Use this page as the canonical codes surface. July 15, 2026 Roblox, Google, and YouTube checks found code demand, but no current code was confirmed from an official or creator-owned source."
+        description="Use this page as the canonical codes surface. July 20, 2026 Roblox, Google, and YouTube checks found code demand, but no current code was confirmed from an official or creator-owned source."
       />
       <AdsterraArticleTop />
 
@@ -75,7 +75,7 @@ export default function CodesPage() {
           <SectionHeader
             eyebrow="Verification"
             title="Code freshness policy"
-            copy="Codes should show the date checked, source type, and conflict notes when trackers disagree. As of July 15, 2026, official Roblox and creator-owned checks still did not expose a code list, and Google or YouTube demand alone was not enough to publish a reward claim."
+            copy="Codes should show the date checked, source type, and conflict notes when trackers disagree. As of July 20, 2026, official Roblox and creator-owned checks still did not expose a code list, and Google or YouTube demand alone was not enough to publish a reward claim."
           />
         </article>
       </section>
